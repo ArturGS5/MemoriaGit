@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		4C2404241DB4180A00C31E70 /* MemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2404231DB4180A00C31E70 /* MemoriaTests.swift */; };
-		4C24042F1DB4180A00C31E70 /* MemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C24042E1DB4180A00C31E70 /* MemoriaUITests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		4C2404201DB4180A00C31E70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,13 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C24040B1DB4180A00C31E70 /* Memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C24041F1DB4180A00C31E70 /* MemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C2404231DB4180A00C31E70 /* MemoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriaTests.swift; sourceTree = "<group>"; };
-		4C2404251DB4180A00C31E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C24042A1DB4180A00C31E70 /* MemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C24042E1DB4180A00C31E70 /* MemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriaUITests.swift; sourceTree = "<group>"; };
-		4C2404301DB4180A00C31E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C24040B1DB4180A00C31E70 /* Memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Memoria.app; path = "/Users/artgs/Desktop/MisProgs/Memoria/build/Debug-iphoneos/Memoria.app"; sourceTree = "<absolute>"; };
+		4C24041F1DB4180A00C31E70 /* MemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MemoriaTests.xctest; path = "/Users/artgs/Desktop/MisProgs/Memoria/build/Debug-iphoneos/MemoriaTests.xctest"; sourceTree = "<absolute>"; };
+		4C24042A1DB4180A00C31E70 /* MemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MemoriaUITests.xctest; path = "/Users/artgs/Desktop/MisProgs/Memoria/build/Debug-iphoneos/MemoriaUITests.xctest"; sourceTree = "<absolute>"; };
+		4C24043C1DB4189B00C31E70 /* Memoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Memoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,38 +58,8 @@
 		4C2404021DB4180900C31E70 = {
 			isa = PBXGroup;
 			children = (
-				4C2404221DB4180A00C31E70 /* MemoriaTests */,
-				4C24042D1DB4180A00C31E70 /* MemoriaUITests */,
-				4C24040C1DB4180A00C31E70 /* Products */,
+				4C24043C1DB4189B00C31E70 /* Memoria.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		4C24040C1DB4180A00C31E70 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4C24040B1DB4180A00C31E70 /* Memoria.app */,
-				4C24041F1DB4180A00C31E70 /* MemoriaTests.xctest */,
-				4C24042A1DB4180A00C31E70 /* MemoriaUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4C2404221DB4180A00C31E70 /* MemoriaTests */ = {
-			isa = PBXGroup;
-			children = (
-				4C2404231DB4180A00C31E70 /* MemoriaTests.swift */,
-				4C2404251DB4180A00C31E70 /* Info.plist */,
-			);
-			path = MemoriaTests;
-			sourceTree = "<group>";
-		};
-		4C24042D1DB4180A00C31E70 /* MemoriaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4C24042E1DB4180A00C31E70 /* MemoriaUITests.swift */,
-				4C2404301DB4180A00C31E70 /* Info.plist */,
-			);
-			path = MemoriaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +150,7 @@
 				Base,
 			);
 			mainGroup = 4C2404021DB4180900C31E70;
-			productRefGroup = 4C24040C1DB4180A00C31E70 /* Products */;
+			productRefGroup = 4C2404021DB4180900C31E70;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -235,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C2404241DB4180A00C31E70 /* MemoriaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C24042F1DB4180A00C31E70 /* MemoriaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
